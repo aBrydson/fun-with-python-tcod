@@ -1,3 +1,10 @@
+# constants = a dict containing constant variables such as root_width, root_height etc
+# consoles = [] a list of off screen consoles initialised at the start of the game
+# world_data = another dict containing all the colours and origin_names for use in the menu, among other things like naming conventions etc.            
+                
+
+
+
 def open_chargen_menu(constants, consoles, world_data):
 
     tcod.console_flush()
